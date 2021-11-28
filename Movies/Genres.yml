@@ -1,0 +1,32 @@
+templates:
+  Genre:
+    plex_search:
+      genre: <<genre>>
+    url_poster: <<poster>>
+    sort_title: "!B <<collection_name>>"
+    collection_order: alpha
+collections:
+  Action:
+    template: {name: Genre, genre: Action, poster: https://theposterdb.com/api/assets/161229}
+    summary: Action film is a genre wherein physical action takes precedence in the storytelling. The film will often have continuous motion and action including physical stunts, chases, fights, battles, and races. The story usually revolves around a hero that has a goal, but is facing incredible odds to obtain it.
+  Adventure:
+    template: {name: Genre, genre: Adventure, poster: https://theposterdb.com/api/assets/161231}
+    summary: Adventure film is a genre that revolves around the conquests and explorations of a protagonist. The purpose of the conquest can be to retrieve a person or treasure, but often the main focus is simply the pursuit of the unknown. These films generally take place in exotic locations and play on historical myths. Adventure films incorporate suspenseful puzzles and intricate obstacles that the protagonist must overcome in order to achieve the end goal.
+  Anime Movies:
+    template: {name: Genre, genre: Anime, poster: https://theposterdb.com/api/assets/161233}
+    summary: A collection of Anime movies
+  Documentary:
+    template: {name: Genre, genre: Documentary, poster: https://theposterdb.com/api/assets/189535}
+    summary: Documentary film is a non-fiction genre intended to document reality primarily for the purposes of instruction, education, or maintaining a historical record.
+  Family:
+    template: {name: Genre, genre: Family, poster: https://theposterdb.com/api/assets/161189}
+    summary: Fantasy film is a genre that incorporates imaginative and fantastic themes. These themes usually involve magic, supernatural events, or fantasy worlds. Although it is its own distinct genre, these films can overlap into the horror and science fiction genres. Unlike science fiction, a fantasy film does not need to be rooted in fact. This element allows the audience to be transported into a new and unique world. Often, these films center on an ordinary hero in an extraordinary situation.
+  Horror:
+    template: {name: Genre, genre: Horror, poster: https://theposterdb.com/api/assets/161217}
+    summary: Horror film is a genre that aims to create a sense of fear, panic, alarm, and dread for the audience. These films are often unsettling and rely on scaring the audience through a portrayal of their worst fears and nightmares. Horror films usually center on the arrival of an evil force, person, or event. Many Horror films include mythical creatures such as ghosts, vampires, and zombies. Traditionally, Horror films incorporate a large amount of violence and gore into the plot. Though it has its own style, Horror film often overlaps into Fantasy, Thriller, and Science-Fiction genres.
+  Sci-Fi:
+    template: {name: Genre, genre: Science Fiction, poster: https://theposterdb.com/api/assets/161220}
+    summary: Science Fiction (Sci-Fi) film is a genre that incorporates hypothetical, science-based themes into the plot of the film. Often, this genre incorporates futuristic elements and technologies to explore social, political, and philosophical issues. The film itself is usually set in the future, either on earth or in space. Traditionally, a Science Fiction film will incorporate heroes, villains, unexplored locations, fantastical quests, and advanced technology.
+  War:
+    template: {name: Genre, genre: War, poster: https://theposterdb.com/api/assets/161222}
+    summary: War Film is a genre that looks at the reality of war on a grand scale. They often focus on landmark battles as well as political issues within war. This genre usually focuses on a main character and his team of support, giving the audience an inside look into the gritty reality of war.

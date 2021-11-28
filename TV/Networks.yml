@@ -1,0 +1,46 @@
+templates:
+  Networks:
+    optional:
+      - network
+    url_poster: <<poster>>
+    tmdb_network: <<network>>
+    sort_title: "!B <<collection_name>>"
+    sync_mode: sync
+    smart_label: episode_added.desc
+collections:
+  AMC:
+    template: { name: Networks, network: "174, 4661", poster: https://theposterdb.com/api/assets/137324 }
+  HBO:
+    template: { name: Networks, network: "49, 2593, 3186, 3308", poster: https://theposterdb.com/api/assets/110736 }
+  Cinemax:
+    template: { name: Networks, network: 359, poster: https://theposterdb.com/api/assets/64163 }
+  Showtime:
+    template: { name: Networks, network: 67, poster: https://theposterdb.com/api/assets/138092 }
+  Netflix:
+    template: { name: Networks, network: 213, poster: https://theposterdb.com/api/assets/146277 }
+  Hulu:
+    template: { name: Networks, network: 45, poster: https://theposterdb.com/api/assets/168826 }
+  Syfy:
+    template: { name: Networks, network: "77, 3701", poster: https://theposterdb.com/api/assets/164126 }
+  Starz:
+    template: { name: Networks, network: "318, 758, 4906", poster: https://theposterdb.com/api/assets/85110 }
+  HGTV:
+    template: { name: Networks, network: 210, poster: https://theposterdb.com/api/assets/98967 }
+  TBS:
+    template: { name: Networks, network: "68, 160, 4888", poster: https://theposterdb.com/api/assets/113271 }
+  National Geographic:
+    template: { name: Networks, network: "43, 799, 1756, 1825, 3355, 4293, 4476", poster: https://theposterdb.com/api/assets/121026 }
+  Prime Video:
+    template: { name: Networks, network: 1024, poster: https://theposterdb.com/api/assets/110737 }
+  YouTube:
+    template: { name: Networks, network: "247, 1436, 4869", poster: https://theposterdb.com/api/assets/115962 }
+  FX:
+    template: { name: Networks, network: 88, poster: https://theposterdb.com/api/assets/85088 }
+  Disney+:
+    template: { name: Networks, network: "2739, 2919", poster: https://theposterdb.com/api/assets/120939 }
+  Apple+:
+    template: { name: Networks, network: 2552, poster: https://theposterdb.com/api/assets/85074 }
+  Discovery:
+    template: { name: Networks, network: "10, 22, 64, 106, 244, 626, 670, 1079, 1287, 1534, 2087, 2480, 2692, 3045, 3591, 3900, 3953, 4440, 4462, 4741", poster: https://theposterdb.com/api/assets/137385 }
+  A&E:
+    template: { name: Networks, network: "129, 2639, 3688", poster: https://theposterdb.com/api/assets/85014 }

@@ -1,0 +1,25 @@
+templates:
+  Chart:
+    sort_title: "!A <<num>><<collection_name>>"
+    sync_mode: sync
+    smart_label: originally_available.desc
+collections:
+  Plex Popular:
+    template: { name: Chart, num: 1 }
+    tautulli_popular:
+      list_days: 30
+      list_size: 20
+      list_buffer: 20
+    tautulli_watched:
+      list_days: 30
+      list_size: 20
+      list_buffer: 20
+    summary: Movies Popular on Plex
+  Trakt Trending:
+    template: { name: Chart, num: 2 }
+    trakt_trending: 25
+    summary: Trending Movies from Trakt.tv
+  Trakt Popular:
+    template: { name: Chart, num: 3 }
+    trakt_popular: 25
+    summary: Popular Movies from Trakt.tv
